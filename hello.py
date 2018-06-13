@@ -1,11 +1,11 @@
 from flask import Flask
 
-app = Flask(__name__)
+@app = Flask(__name__)
 
-@app.route("/")
+@myapp.route("/")
 def hello():
     return "Hello World"
 
-@app.route("/tiide")
+@myapp.route("/tiide")
 def tiide():
     return "Welcome to TIIDE World"
